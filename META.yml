@@ -9,7 +9,7 @@ configure_requires:
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Minilla/v0.4.9, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Minilla/v0.5.3, CPAN::Meta::Converter version 2.130880'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -27,14 +27,16 @@ no_index:
 provides:
   Nephia::Plugin::PocketIO:
     file: lib/Nephia/Plugin/PocketIO.pm
-    version: 0.01
+    version: 0.02
 requires:
+  HTML::Escape: 0
   Nephia: 0
   Plack::Handler::Twiggy: 0
   PocketIO: 0
+  Sub::Recursive: 0
   perl: 5.008005
 resources:
   bugtracker: https://github.com/ytnobody/Nephia-Plugin-PocketIO/issues
   homepage: https://github.com/ytnobody/Nephia-Plugin-PocketIO
   repository: git://github.com/ytnobody/Nephia-Plugin-PocketIO.git
-version: 0.01
+version: 0.02
